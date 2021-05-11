@@ -7,11 +7,28 @@
     .navigation-bar {
         width: 50%;
     }
+
+    #importancia-biodiversidad {
+        max-width: 90%;
+    }
+
+    .contenido-importancia, .imagen-importancia {
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .navigation-bar {
         width: 70%;
+    }
+
+    #importancia-biodiversidad {
+        max-width: 100%;
+        height: 95vh;
+    }
+
+    .contenido-importancia, .imagen-importancia {
+        width: 50%;
     }
 }
 

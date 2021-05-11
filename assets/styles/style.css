@@ -419,6 +419,10 @@ footer {
     justify-content: center;
 }
 
+.texto-perdida {
+    width: 80%;
+}
+
 .articulo {
     text-decoration: none;
     color: white;
@@ -470,7 +474,7 @@ footer {
 }
 
 .texto-conservacion {
-    max-width: 80%;
+    width: 60%;
     margin: auto;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -490,6 +494,22 @@ footer {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+}
+
+.conjunto-conservacion {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.imagen-conservacion {
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
 }
 
 .video-conservacion {
@@ -513,4 +533,38 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.fondo-megadiversidad {
+    background: url("https://maravillosanaturaleza.com/wp-content/uploads/2020/09/qu%C3%A9-es-megadiverso2.jpg");
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.contenido-megadiversidad {
+    background-color: white;
+    height: 40vh;
+    width: 40%;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-megadiversidad, .texto-megadiversidad {
+    width: 80%;
+    margin-top: 10px;
+}
+
+.video-mexico {
+    width: 560px;
+    height: 315px;
 }
