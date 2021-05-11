@@ -155,10 +155,9 @@ p {
 
 #biodiversidad {
     background: white;
-    padding: 54px 5px 54px 5px;
+    padding: 54px 5px;
     margin: auto;
     max-width: 80%;
-    height: calc(100vh - 108px);
     justify-content: space-evenly;
     align-items: center;
     display: flex;
@@ -167,16 +166,78 @@ p {
 }
 
 .imagen-biodiversidad {
-    width: 45%;
+    width: 40%;
     transition: 0.5s;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     border-radius: 15px;
     box-shadow: 3px 3px 3px gray;
 }
 
 .texto-biodiversidad {
-    width: 25vw;
+    width: 30vw;
 }
 
+#biodiversidad2 {
+    padding: 0px 5px 54px 5px;
+    margin: auto;
+}
+
+.titulo-biodiversidad2 {
+    text-align: center;
+}
+
+.texto-biodiversidad2 {
+    max-width: 70%;
+    margin: auto;
+}
+
+.banner-biodiversidad {
+    width: 100%;
+    margin: 54px 0px;
+}
+
+footer {
+    background: linear-gradient(90deg, rgb(53, 192, 168), rgb(121, 224, 205));
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+#importancia-biodiversidad {
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.contenido-importancia {
+    width: 40%;
+    background: lightgreen;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-importancia {
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+    margin: 0;
+}
+
+.texto-importancia {
+    padding: 10px 50px 0px 50px;
+}
+
+.imagen-importancia {
+    background: url("https://t2.ev.ltmcdn.com/es/posts/1/0/0/conservacion_de_la_biodiversidad_que_es_practicas_e_importancia_3001_600_square.jpg") center center;
+    width: 40%;
+    height: 90vh;
+}
