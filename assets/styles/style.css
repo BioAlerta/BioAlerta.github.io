@@ -200,10 +200,28 @@ footer {
     padding: 20px;
 }
 
+.flexfooter {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
 .footer {
     text-align: center;
     font-size: 15px;
     color: white;
+}
+
+.autores {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
 }
 
 #importancia-biodiversidad {
@@ -393,7 +411,7 @@ footer {
     justify-content: center;
 }
 
-#articulo-perdida {
+#articulo-perdida, #articulo-conserva, #articulo-conservacion {
     text-decoration: none;
     color: white;
     background-color: rgb(121, 224, 205);
@@ -405,7 +423,48 @@ footer {
     margin: 5px;
 }
 
-#articulo-perdida:hover {
+#articulo-conserva {
+    background-color: green;
+}
+
+#articulo-perdida:hover, #articulo-conservacion {
     background-color: rgb(53, 192, 168);
 }
+
+#articulo-conserva:hover {
+    background-color: darkgreen;
+
+}
 /* Content and Sections of the Conservación Web Page */
+
+#inicio-conservacion {
+    padding: 5px;
+    padding-top: 8vh;
+    margin: 0;
+    background: url("https://www.veterinariareptilesyanfibios.com/wp-content/uploads/2018/09/Conservacio%CC%81n-del-medio-ambiente-890x430@2x.jpg") center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 92vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Content and Sections of the Conservación Web Page */
+
+#inicio-mexico {
+    padding: 5px;
+    padding-top: 8vh;
+    margin: 0;
+    background: url("https://www.lifeder.com/wp-content/uploads/2017/05/mexico-pais-megadiverso.jpg") center top fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 92vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
