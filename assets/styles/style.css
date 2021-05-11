@@ -241,3 +241,7 @@ footer {
     width: 40%;
     height: 90vh;
 }
+
+.visible {
+    visibility: hidden;
+}
