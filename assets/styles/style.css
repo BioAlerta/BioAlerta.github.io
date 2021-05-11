@@ -384,3 +384,28 @@ footer {
 .card-text {
     padding: 10px;
 }
+
+.video-perdida {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#articulo-perdida {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(121, 224, 205);
+    height: 40px;
+    line-height: 40px;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+}
+
+#articulo-perdida:hover {
+    background-color: rgb(53, 192, 168);
+}
+/* Content and Sections of the Conservación Web Page */
