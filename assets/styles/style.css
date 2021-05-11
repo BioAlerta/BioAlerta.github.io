@@ -120,7 +120,7 @@ nav {
     padding: 5px;
     padding-top: 8vh;
     margin: 0;
-    background: url("https://cdn.pixabay.com/photo/2020/02/05/15/19/meerkat-4821484_960_720.jpg") center center fixed;
+    background: url("https://cdn.pixabay.com/photo/2020/02/05/15/19/meerkat-4821484_960_720.jpg") center top fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -136,7 +136,8 @@ nav {
     margin-right: 5%;
     padding-right: 10px;
     text-align: right;
-    border-right: 5px solid rgb(121, 224, 205);
+    border-right: 7px solid rgb(121, 224, 205);
+    font-size: 50px;
 }
 
 h1 {
@@ -146,6 +147,34 @@ h1 {
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-
+    font-size: 18px;
+    text-align: justify;
 }
+
+#biodiversidad {
+    background: white;
+    padding: 54px 5px 54px 5px;
+    margin: auto;
+    max-width: 80%;
+    height: calc(100vh - 108px);
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imagen-biodiversidad {
+    width: 45%;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.texto-biodiversidad {
+    width: 25vw;
+}
+
