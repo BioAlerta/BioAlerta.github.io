@@ -143,12 +143,14 @@ nav {
 h1 {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 30px;
+    margin: 20px 0px;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     text-align: justify;
+    margin: 10px 0px;
 }
 
 #biodiversidad {
@@ -160,7 +162,7 @@ p {
     justify-content: space-evenly;
     align-items: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
 }
 
