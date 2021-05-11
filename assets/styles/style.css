@@ -276,7 +276,7 @@ footer {
     align-items: center;
 }
 
-.titulo-inicio-factores {
+.titulo-inicio-left {
     color: white;
     margin-left: 5%;
     padding-left: 10px;
@@ -531,7 +531,7 @@ footer {
     -o-background-size: cover;
     height: 92vh;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -564,7 +564,109 @@ footer {
     margin-top: 10px;
 }
 
+.titulo-caracmegadiversidad {
+    text-align: center;
+    width: 80%;
+    margin: 15px auto;
+}
+
 .video-mexico {
     width: 560px;
     height: 315px;
+    margin: 10px;
+}
+
+.tarjetas-carac {
+    height: 90vh;
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.tarjeta {
+    min-height: 40vh;
+    max-width: 25vw;
+    min-width: 25vw;
+    margin: 0px 1vw;
+    background-color: lightgreen;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.texto-tarjeta {
+    width: 90%;
+}
+.imagen {
+    width: 25vw;
+    height: 22vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    align-self: flex-start;
+}
+
+.pos-geo {
+    background: url("https://www.mexicodesconocido.com.mx/wp-content/uploads/2018/05/mexico-mapa.jpg") center center;
+}
+
+.div-pai {
+    background: url("https://i.pinimg.com/474x/4e/26/5f/4e265f622dcb45118e93986b8793e60a.jpg") center center;
+}
+
+.aisl {
+    background: url("https://www.gifex.com/images/0X0/2009-09-17-5919/Imagen_de_satelite_de_las_Islas_Galapagos.jpg") center center;
+}
+
+.tama {
+    background: url("https://idic.mx/wp-content/uploads/2019/03/mexico-mapa.jpg") center center;
+}
+
+.hist-evo {
+    background: url("https://i.pinimg.com/236x/6b/fb/d6/6bfbd65f72963c1c091f69179197bc94.jpg") center top;
+}
+
+.cult {
+    background: url("https://media.discordapp.net/attachments/784191440476831778/832397255469563935/shutterstock_83219491-min-e1533059370147.png") center top;
+}
+
+.titulo-mexico-megadiverso {
+    width: 80%;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.texto-mexico-megadiverso {
+    width: 80%;
+    text-align: justify;
+    margin: 10px auto;
+}
+
+.instrumentos-conservacion {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.mexico-megadiverso {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
