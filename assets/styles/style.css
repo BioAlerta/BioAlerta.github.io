@@ -2,6 +2,7 @@ html {
     height: 100%;
     width: 100%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -155,7 +156,7 @@ p {
 
 #biodiversidad {
     background: white;
-    padding: 54px 5px;
+    padding: 20px 5px;
     margin: auto;
     max-width: 80%;
     justify-content: space-evenly;
@@ -222,6 +223,7 @@ footer {
     font-size: 15px;
     padding: 20px;
     text-align: center;
+    font-family: 'Roboto', sans-serif
 }
 
 #importancia-biodiversidad {
@@ -286,7 +288,7 @@ footer {
 }
 
 #factores {
-    padding: 54px 5px;
+    padding: 20px 5px;
 }
 
 .titulo-factores {
@@ -323,7 +325,7 @@ footer {
 .antropo-front {
     width: 100%;
     height: 100%;
-    background: url("https://www.infobae.com/new-resizer/0_6Ja6Vo5KRSE75E94FG4tAl3B0=/992x661/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/TDL56CCL6FF2XPKTY6CGR4NMGQ.jpg") center 300px;
+    background: url("https://www.infobae.com/new-resizer/0_6Ja6Vo5KRSE75E94FG4tAl3B0=/992x661/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/TDL56CCL6FF2XPKTY6CGR4NMGQ.jpg") center 400px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -433,6 +435,7 @@ footer {
     text-align: center;
     font-weight: bold;
     margin: 5px;
+    font-size: 18px;
 }
 
 #conserva {
@@ -446,6 +449,11 @@ footer {
 #conserva:hover {
     background-color: darkgreen;
 
+}
+
+.video-entrevista {
+    width: 640px;
+    height: 360
 }
 /* Content and Sections of the Conservación Web Page */
 
@@ -605,6 +613,7 @@ h2 {
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 24px;
     margin: 0px;
+    text-align: center1;
 }
 
 .texto-tarjeta {
